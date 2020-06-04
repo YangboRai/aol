@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="378" height="378" viewBox="0 0 378 378">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="378" height="378" fill="none"/>
+    </clipPath>
+    <filter id="Rectangle_604" x="0" y="0" width="378" height="378" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Repeat_Grid_4" data-name="Repeat Grid 4" clip-path="url(#clip-path)">
+    <g id="Group_299" data-name="Group 299" transform="translate(11259 -4720)">
+      <g id="Group_300" data-name="Group 300">
+        <g transform="matrix(1, 0, 0, 1, -11259, 4720)" filter="url(#Rectangle_604)">
+          <g id="Rectangle_604-2" data-name="Rectangle 604" transform="translate(9 7)" fill="#fff" stroke="#ffeded" stroke-width="2">
+            <rect width="360" height="360" stroke="none"/>
+            <rect x="1" y="1" width="358" height="358" fill="none"/>
+          </g>
+        </g>
+        <circle id="Ellipse_36" data-name="Ellipse 36" cx="145" cy="145" r="145" transform="translate(-11223 4759)" fill="#8bccf4"/>
+        <rect id="Rectangle_605" data-name="Rectangle 605" width="202" height="143" rx="5" transform="translate(-11179 4833)" fill="#57689f"/>
+        <rect id="Rectangle_606" data-name="Rectangle 606" width="180" height="100" rx="5" transform="translate(-11169 4866)" fill="#fff"/>
+        <rect id="Rectangle_607" data-name="Rectangle 607" width="111" height="16" rx="5" transform="translate(-11170 4842)" fill="#fff"/>
+        <rect id="Rectangle_608" data-name="Rectangle 608" width="29" height="16" rx="5" transform="translate(-11051 4842)" fill="#fff"/>
+        <rect id="Rectangle_609" data-name="Rectangle 609" width="25" height="16" rx="5" transform="translate(-11014 4842)" fill="#fff"/>
+        <line id="Line_23" data-name="Line 23" x1="14" y2="55" transform="translate(-11085.5 4879.5)" fill="none" stroke="#777bb7" stroke-width="6"/>
+        <g id="Group_297" data-name="Group 297" transform="translate(-6.818 -8.794)">
+          <path id="Path_280" data-name="Path 280" d="M22.883,5.01-17.9,21.834v1.72L22.883,39.211" transform="translate(-11110 4894)" fill="none" stroke="#777bb7" stroke-width="6"/>
+        </g>
+        <g id="Group_298" data-name="Group 298" transform="translate(-22235.195 9630.957) rotate(-179)">
+          <path id="Path_280-2" data-name="Path 280" d="M22.5,7.342-17.9,21.5v1.687l40.965,16" transform="translate(-11110 4894)" fill="none" stroke="#777bb7" stroke-width="6"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

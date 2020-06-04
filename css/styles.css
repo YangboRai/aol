@@ -1,0 +1,1302 @@
+*{
+	padding:0;
+	margin:0;
+	font-family:sans-serif;
+	letter-spacing: 0.5px;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+#load{
+	width: 100%;
+	height: 100%;
+	background: white;
+	text-align: center;
+	position: fixed;
+	z-index: 14;
+	display: block;
+}
+
+#load h1{
+	padding-top:300px;
+	padding-bottom: 20px;
+	font-size: 3.5em;
+	font-weight: 500;
+	color:#5AA9F7;
+}
+
+.loading-a{
+	width: 200px;
+}
+
+.head-icon{
+	background: red;
+}
+
+.navigation{
+	width:100%;
+	height:120px;
+	background: #ffffff;
+	z-index: 4;
+}
+
+#Group_1799{
+	transform-origin: center;
+	animation: spin 1s infinite;
+}
+
+
+#Group_1799:hover{
+	cursor: pointer;
+	padding-left: 20px;
+}
+
+.navigation-inner{
+	max-width: 1200px;
+	margin:0 auto;
+	height: 100%;
+
+}
+
+.logo{
+	width: 60%;
+	float: left;
+}
+
+.logo-img{
+	position: absolute;
+	padding-top:55px;
+}
+
+.logo-img img{
+	width:120%;
+}
+
+.aol-logo{
+	position: relative;
+	font-size: 60px;
+	padding-top:50px;
+	padding-left:125px;
+	color: #7E7BCC;
+	opacity: 0.57;
+}
+
+.aol-mini-logo{
+	position: relative;
+	font-size: 24px;
+	padding-top:20px;
+	padding-left:50px;
+	font-weight: 300;
+	color: #51575F;
+	color: #7E7BCC;
+	opacity: 0.57;
+}
+
+
+#nav{
+	width:40%;
+	height: 100%;
+	float: right;
+}
+
+.hamburger-menu{
+	width:70px;
+	height: 70px;
+	background:#7E7BCC;
+	border-radius: 50%;
+	float:right;
+	margin-top:65px;
+	transition: all .5s;
+	margin-right: 40px;
+	opacity: 0.57;
+
+}
+
+
+.nav-list{
+	width: 500px;
+	float: left;
+	text-align: center;
+	opacity: 0;
+	display: none;
+	background:white;
+}
+
+.nav-list ul a{
+	
+	padding: 0;
+	transition: all 1s;
+	color: #DCDEFF;
+	opacity: .7;
+	padding-top: 25px;
+	height: 70px;
+}
+
+
+.nav-line{
+	height: 5px;
+	width:35px;
+	background: #F4F8FF;
+	margin-top:33px;
+	border-radius: 2px;
+	position: relative;
+	transition: all .5s;
+	position: absolute;
+	margin-left: 18px;
+}
+
+.nav-line-before{
+	height: 5px;
+	width:35px;
+	background: #F4F8FF;
+
+	margin-top:22px;
+	border-radius: 2px;
+	position: relative;
+	transition: all .5s;
+	position: absolute;
+	margin-left: 18px;
+}
+
+.nav-line-after{
+	height: 5px;
+	width:35px;
+	background: #F4F8FF;
+	margin-top:44px;
+	border-radius: 2px;
+	position: relative;
+	position: absolute;
+	margin-left: 18px;
+	transition: all 1s;
+	opacity: 1;
+}
+
+
+.hamburger-menu:hover{
+	cursor: pointer;
+	background:#DCDEFF;
+
+}
+
+.hamburger-menu:hover .nav-list{
+
+}
+
+
+.hamburger-menu:hover .nav-line{
+	background:#666BC9;
+}
+
+
+.hamburger-menu:hover .nav-line-after{
+	background:#666BC9;
+}
+
+.hamburger-menu:hover .nav-line-before{
+	background:#666BC9;
+}
+
+.burger-click{
+	border-radius: 0;
+	width:500px;
+	height: 70px;
+
+}
+
+.nav-list-click{
+	display: inline;
+	opacity: 1;
+	transition: all 1s;
+}
+
+.nav-line-click{
+	background:#666BC9;
+	margin-left: 445px;
+	transform: rotate(135deg);
+}
+
+.nav-line-before-click{
+	background:#666BC9;
+	margin-top:33px;
+	margin-left: 445px;
+	transform: rotate(45deg);
+}
+
+.nav-line-after-click{
+	background:#666BC9;
+	opacity: 0;
+	transition: all .2s;
+}
+
+#nav ul{
+	list-style-type: none;
+}
+
+#nav ul a{
+	display: inline-block;
+	text-decoration: none;
+	margin-right:45px;
+	color:#7E7BCC;
+	font-weight: 400;
+}
+
+#nav ul a:hover{
+	color: red;
+	transition: all .5s;
+}
+
+#fixed-nav-list{
+  background-color: #FFFFFF;
+  position: fixed;
+  top: -100px;
+  width: 100%;
+  display: block;
+  transition: top 0.5s;
+  z-index: 10;
+  height: 100px;
+  box-shadow: 0px 0px 10px #EDF3F7;
+}
+
+
+.fixed-nav-inner{
+	max-width: 1230px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 5fr 6fr;
+}
+
+
+.fixed-logo-img{
+	position: absolute;
+	padding-top: 25px;
+}
+
+.fixed-logo-img img{
+	width:80%;
+}
+
+.fixed-aol-logo{
+	position: relative;
+	font-size: 32px;
+	padding-top:30px;
+	padding-left:80px;
+	color: #7E7BCC;
+	opacity: 0.57;
+}
+
+.fixed-nav-list{
+	padding-top: 40px;
+	text-align: right;
+}
+
+.fixed-nav-list ul{
+	list-style-type: none;
+}
+
+.fixed-nav-list ul a{
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 16px;
+	color: #7E7BCC;
+	opacity: 0.77;
+}
+
+
+.landing-container{
+	padding-top:120px;
+}
+
+.landing-inner{
+	width: 100%;
+	background-image: linear-gradient( #ffffff , #DEEAFF);
+	height:560px;
+	padding-top:20px;
+	border-bottom-left-radius: 100% 20%;
+	border-bottom-right-radius: 100% 20%;
+}
+
+
+
+
+.landing-content{
+	max-width: 1200px;
+	margin:0 auto;
+	padding:0px 0;
+}
+
+
+#analysis-container{
+	width: 200px;
+	height:100px;
+	position: absolute;
+	margin-top: 10px;
+	margin-left:100px;
+	float: left;
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+}
+
+#analysis-text{
+	font-size: 1.8em;
+	font-weight: 400;
+	color: #7E7BCC;
+	transition: all .7s;
+	opacity: .4;
+	padding:10px;
+	text-align: center;
+}
+
+#analysis-text:hover{
+	opacity: .9;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+
+.analysis-inner{
+	width:90%;
+	height: 50px;
+	color: white;
+	position: relative;
+	margin:10px auto;
+	margin-top:25px;
+}
+
+.analysis-center{
+	width:calc(100% - 4px);
+	height:calc(100% - 4px);
+	float:left;
+}
+
+#analysis-top{
+	background: #7E7BCC;
+	opacity: .7;
+
+}
+
+.top-animate{
+	height:4px;
+	animation-name: topline;
+	animation-duration: .4s;
+	position: absolute;
+	width: 95%;
+}
+
+.reset-top{
+background: red;
+}
+
+@keyframes topline{
+
+	0%{
+		width:0%;
+	}
+
+	100%{
+		width: 95%;
+	}
+}
+
+#analysis-right{
+
+}
+
+#analysis-right-line{
+	background: #7E7BCC;
+	opacity: .7;
+}
+
+.right-animate{
+	width:4px;
+	float:left;
+	position: absolute;
+	right: 2px;
+	animation-name:rightline;
+	animation-duration: .7s;
+	position: absolute;
+	height:95%;
+}
+
+
+@keyframes rightline{
+	0% {height: 0%;
+
+	}
+	50%{
+		height:0%;
+	}
+
+	100%{
+		height: 95%;
+	}
+
+}
+
+
+#transformation-container{
+	width: 380px;
+	height:80px;
+	position: absolute;
+	margin-top: 320px;
+	margin-left:100px;
+	float: left;
+}
+
+.transform-inner{
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+}
+
+.transformation-text{
+	font-size: 1.8em;
+	font-weight: 400;
+	color: #7E7BCC;
+	transition: all .7s;
+	opacity: .4;
+	float:left;
+	text-align: center;
+	height: 50px;
+	padding-top: 2px;
+}
+
+.transform-line{
+	margin-top: 17px;
+	width: 0%;
+	height: 4px;
+	background:blue;
+	transition: all .5s;
+	float: left;
+	visibility: hidden;
+	background: #7E7BCC;
+	opacity: .7;
+}
+
+.transform-inner:hover .transformation-text{
+		cursor: pointer;
+		font-size: 22px;
+		opacity: .9;
+}
+
+.transform-inner:hover .transform-line{
+	transition-delay: .4s;
+	cursor: pointer;
+	visibility: visible;
+	width: 85%;
+}
+
+
+
+
+
+
+
+.landing-text{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 500;
+	color: #152B4A;
+}
+
+.landing-img{
+	text-align: center;
+}
+
+.landing-img svg{
+	max-width: 700px;
+}
+
+.landing-buttons{
+	max-width: 1200px;
+	margin:0 auto;
+	padding:40px 0;
+	padding-left:22%;
+}
+
+.landing-wwd-btn{
+	padding:15px 30px;
+	background:#3C7EF7;
+	text-decoration: none;
+	color:#ffffff;
+	border-radius: 15px;
+}
+
+
+.landing-contact-us{
+		text-decoration: none;
+		margin-left:45px;
+		color:#152B4A;
+}
+
+
+#services{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+.services-header{
+	text-align: center;
+	padding:150px 0 20px 0;
+	font-weight: 500;
+	font-size: 34px;
+}
+
+
+.services-inner-container{
+	width:100%;
+	height:500px;
+	padding:80px 0;
+}
+
+
+.service-content-left{
+	width:50%;
+	height:100%;
+	float: left;
+}
+
+.service-content-right{
+	width:45%;
+	height:100%;
+	float: left;
+	padding-left:5%;
+}
+
+.service-content-data-vis{
+	width:50%;
+	height:100%;
+	float: left;
+	background: #EDF5FF;
+	text-align: center;
+}
+
+.data-dashb{
+	padding-top: 35px;
+	width: 70%;
+}
+
+
+.tick{
+	width: 25px;
+	margin-right: 15px;
+	position: relative;
+	top: 5px;
+}
+
+
+.data-dashbp{
+	padding-top: 70px;
+	width: 70%;
+}
+
+.data-imp{
+	width: 60%;
+	padding-top: 35px;
+}
+
+.data-vis-container{
+	padding:25px 0;
+	width:90%;
+}
+
+.data-vis-header{
+	font-size: 34px;
+	font-weight: 400;
+}
+
+.data-vis-container p{
+	padding:30px 0;
+	line-height: 40px;
+	font-size: 18px;
+	color: #788596;
+	font-weight: 300;
+}
+
+.data-vis-container ul{
+	text-decoration: none;
+}
+
+.data-vis-container ul li{
+	list-style-type: none;
+	line-height: 40px;
+	font-size: 16px;
+
+}
+
+.service-content-soft-dev{
+	width:50%;
+	height:100%;
+	float: left;
+	background: #FDF5FC;
+	text-align: center;
+	background: #EFEAFF;
+}
+
+
+.service-content-bi{
+	width:50%;
+	height:100%;
+	float: left;
+	background: #FDFBF5;
+	text-align: center;
+	background: #EAFAED;
+}
+
+.service-content-proc-imp{
+	width:50%;
+	height:100%;
+	float: left;
+	background: #F4FDF4;
+	text-align: center;
+	background: #DEECFF;
+}
+
+.contact-aol{
+	max-width: 1200;
+	margin: 0 auto;
+	background:#274286;
+	padding:60px 0 60px 0;
+	display: grid;
+	grid-template-columns: 5fr 3fr;
+}
+
+.contact-aol-mail{
+	padding:20px 30px;
+	background: #FFFFFF;
+	margin-right: 50px;
+	text-decoration: none;
+	border-radius: 15px;
+	color:#416FC4;
+	text-align: center;
+	transition: all .5s;
+}
+
+.contact-aol-mail:hover{
+	color:#FFFFFF;
+	background: #172C53;
+}
+
+.contact-aol h1{
+	font-size: 1.7em;
+	padding:15px 80px 0 80px;
+	font-weight: 300;
+	color:#ffffff;
+}
+
+
+
+
+#about-us{
+	width:100%;
+	padding:100px 0;
+}
+
+.about-heading{
+	padding:0 0 50px 0;
+	text-align: center;
+	font-weight: 500;
+	font-size: 34px;
+}
+
+.about-us-inner{
+	max-width: 1200px;
+	background:white;
+	height: 600px;
+	margin:0 auto;
+}
+
+.about-img{
+	width:40%;
+	height:600px;
+	margin-left:10%;
+	background: url(../images/about1.png) no-repeat left;
+	float:left;
+}
+
+.about-content{
+	width:50%;
+	float:left;
+	height:400px;
+	background:#F7FAFF;
+	position: relative;
+	left:-70px;
+	top:100px;
+	box-shadow: 0 0 5px #D6D6D6;
+	z-index: 0;
+}
+
+
+.about-content p{
+	font-size: 16px;
+	line-height: 40px;
+	padding:90px 50px;
+	font-weight: 300;
+	color: #8392A7;
+}
+
+
+/* testimonials section */
+
+
+.contact{
+	max-width: 1200px;
+	height: 350px;
+	background:#172C53;
+	margin: 0 auto;
+}
+
+.wwdo-contact{
+	width: 100%;
+	margin:0 auto;
+}
+
+
+.wwdo-test{
+	width: 100%;
+	text-align: center;
+	padding:50px 0 0 0 ;
+	color: #ffffff;
+	font-size: 34px;
+	font-weight: 300;
+}
+
+
+.wwdo-contact p{
+	text-align: center;
+	padding:20px 0px 20px 0;
+	width: 100%;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+
+.slideshow-container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mySlides {
+  display: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.dot-container {
+    text-align: center;
+    padding: 10px;
+    background: #172C53;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+q {font-style: italic;
+	color:#808293;
+	line-height: 40px;}
+
+
+
+
+#footer{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+.footer-inner{
+	width: 100%;
+	height:70px;
+	padding:100px 0;
+}
+
+.footer-left{
+	width: 40%;
+	height: 100%;
+	float: left;	
+}
+
+.logo-2{
+	margin-top: -50px;
+}
+
+
+.foot-logo-img{
+	position: absolute;
+	padding-top:30px;
+}
+
+.foot-logo-img img{
+	width:90%;
+}
+
+.foot-aol-logo{
+	position: relative;
+	font-size: 35px;
+	padding-top:35px;
+	padding-left:90px;
+	color: #7E7BCC;
+}
+
+
+.footer-right{
+	width: 60%;
+	float: left;
+	height: 100%;
+	text-align: right;
+}
+
+.footer-right ul li{
+	padding-left: 45px;
+	display: inline;
+	list-style-type: none;
+	padding-top: 200px;
+	color: #8392A7;
+}
+
+.footer-right ul a{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.h-ruler{
+	height: 1px;
+	width: 100%;
+	background: #E3E3E3;
+	margin-top: 70px;
+}
+
+
+.footer-copy{
+	text-align: center;
+	padding:40px 0;
+	color: #8392A7;
+}
+
+
+#analysis:hover {
+cursor: pointer;
+}
+
+
+@media only screen and (min-width: 1600px) {
+
+#load h1{
+	padding-top:450px;
+}
+
+
+.navigation-inner{
+	max-width: 1500px;
+}
+
+
+
+	.landing-img svg{
+	max-width: 800px;
+}
+
+.landing-inner{
+	height:600px;
+	border-bottom-left-radius: 70% 20%;
+	border-bottom-right-radius:70% 20%;
+}
+
+
+.services-header{
+	padding:100px 0 20px 0;
+}
+
+
+#analysis-container{
+	margin-left:50px;
+}
+
+
+#transformation-container{
+	margin-top: 350px;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+.logo{
+	width:100%;
+}
+
+#nav{
+	width: 100%;
+	display: none;
+}
+
+.nav-list ul a{
+	width: 20px;
+	display: block;
+}
+
+#navList{
+	width: 100%;
+	display: block;
+}
+
+
+.landing-img svg{
+	width: 80%;
+}
+
+.landing-inner{
+	height: 420px;
+}
+
+.hamburger-menu{
+	margin-top: 0;
+	margin-right: 0;
+}
+
+.contact-aol{
+	display: block;
+	height: 230px;
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.contact-aol h1{
+	margin-bottom: 40px;
+}
+
+.contact-aol-mail{
+	margin: 0 auto;
+}
+
+
+.aol-logo{
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 8%;
+}
+
+.aol-mini-logo{
+	font-size: 20px;
+}
+
+
+#analysis-container{
+	display: none;
+}
+
+.data-vis-container{
+	width: 100%;
+	padding: 20px 0;
+}
+
+.data-vis-header{
+	font-size: 24px;
+	text-align: center;
+}
+
+#services{
+
+}
+
+.services-header{
+	padding: 70px 0 10px 0;
+
+}
+
+.services-inner-container{
+	padding:10px 0;
+	height: 900px;
+	display: grid;
+}
+
+.service-content-left{
+	width: 80%;
+	margin:30px 10%;
+}
+
+.service-content-right{
+	width: 80%;
+	margin:30px 10%;
+	padding-left: 0;
+	float:left;
+}
+
+.service-content-data-vis{
+	width: 100%;
+	height: 300px;
+	margin:30px 0;
+	float:right;
+}
+
+.service-content-soft-dev{
+	width: 100%;
+	height: 300px;
+	margin:30px 0;
+	float:right;
+}
+
+
+
+.data-dashbp,.data-dashb{
+	padding-top:20px;
+}
+
+.service-content-bi{
+	width: 100%;
+	height: 300px;
+	margin:30px 0;
+	float:right;
+}
+.service-content-proc-imp{
+	width: 100%;
+	height: 300px;
+	margin:30px 0;
+	float:right;
+}
+
+.about-img{
+	display: none;
+}
+
+.about-content{
+	width: 90%;
+	left: 5%;
+	height: 100%;
+	top: 0;
+}
+
+#about-us{
+	padding:50px 0 ;
+}
+
+.footer-left{
+	width: 100%;
+	margin:0 auto;
+}
+
+.foot-aol-logo{
+	font-size: 25px;
+}
+
+.foot-aol-logo{
+	padding-top: 40px;
+	padding-left: 110px;
+}
+
+.footer-right{
+	padding-top: 25px;
+	width:100%;
+	text-align: center;
+}
+
+.footer-right ul li {
+	padding-left:30px;
+}
+
+.data-v{
+	display: none;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: px) {
+
+
+.logo{
+	width:100%;
+}
+
+#nav{
+	width: 100%;
+	display: none;
+}
+
+.nav-list ul a{
+	width: 20px;
+	display: block;
+}
+
+#navList{
+	width: 100%;
+	display: block;
+}
+
+
+.landing-img svg{
+	width: 80%;
+}
+
+.landing-inner{
+	height: 470px;
+}
+
+.hamburger-menu{
+	margin-top: 0;
+	margin-right: 0;
+}
+
+.contact-aol{
+	display: block;
+	height: 230px;
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.contact-aol h1{
+	margin-bottom: 40px;
+}
+
+.contact-aol-mail{
+	margin: 0 auto;
+}
+
+
+.aol-logo{
+	font-size: 50px;
+	font-weight: 700;
+	padding-top: 8%;
+}
+
+.aol-mini-logo{
+	font-size: 30px;
+}
+
+
+#analysis-container{
+	display: none;
+}
+
+.data-vis-container{
+	width: 100%;
+	padding: 20px 0;
+}
+
+.data-vis-header{
+	font-size: 24px;
+	text-align: center;
+}
+
+
+.services-header{
+	padding: 70px 0 10px 0;
+
+}
+
+.services-container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.services-inner-container{
+	padding:10px 0;
+	height: 400px;
+	margin: 100px 0;
+}
+
+
+
+.data-dashb, .data-dashbp, .data-imp, .data-dashbp{
+	padding-top: 80px;
+}
+
+
+.about-content p{
+	padding:45px 25px;
+}
+
+.footer-left{
+	width: 100%;
+	margin:0 auto;
+}
+
+.foot-aol-logo{
+	font-size: 35px;
+}
+
+.foot-aol-logo{
+	padding-top: 40px;
+	padding-left: 110px;
+}
+
+.footer{
+	height: 500px;
+}
+
+.footer-right{
+	padding-top: 25px;
+	width:100%;
+	text-align: center;
+}
+
+.footer-right ul li {
+	padding-left:30px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+

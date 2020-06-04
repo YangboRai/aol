@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="379" height="378" viewBox="0 0 379 378">
+  <defs>
+    <filter id="Rectangle_170" x="0" y="0" width="379" height="378" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_296" data-name="Group 296" transform="translate(-1170 -561)">
+    <g transform="matrix(1, 0, 0, 1, 1170, 561)" filter="url(#Rectangle_170)">
+      <rect id="Rectangle_170-2" data-name="Rectangle 170" width="361" height="360" transform="translate(9 7)" fill="#fff"/>
+    </g>
+    <text id="Average_Day" data-name="Average Day" transform="translate(1210 603)" fill="#4d4f5c" font-size="18" font-family="EuphemiaUCAS, Euphemia UCAS"><tspan x="0" y="0">Average Day</tspan></text>
+    <rect id="Rectangle_219" data-name="Rectangle 219" width="12" height="12" transform="translate(1243 894)" fill="#5fe3a1"/>
+    <rect id="Rectangle_220" data-name="Rectangle 220" width="12" height="12" transform="translate(1342.682 894)" fill="#ffdb96"/>
+    <rect id="Rectangle_221" data-name="Rectangle 221" width="12" height="12" transform="translate(1445.218 894)" fill="#b1afff"/>
+    <g id="Group_191" data-name="Group 191" transform="translate(1197 643)">
+      <path id="Path_152" data-name="Path 152" d="M105,0A105,105,0,1,1,0,105,105,105,0,0,1,105,0Z" transform="translate(62 0)" fill="#b1afff"/>
+      <g id="Path_151" data-name="Path 151" transform="translate(0 -20)" fill="#fff">
+        <path d="M167,125h0Z" stroke="none"/>
+        <path d="M 0 125 L 167 125 L 0 125 Z" stroke="none" fill="#707070"/>
+      </g>
+      <path id="Intersection_1" data-name="Intersection 1" d="M0,43.336A104.859,104.859,0,0,1,85,0V105Z" transform="translate(82.005 0)" fill="#5fe3a1"/>
+      <path id="Intersection_3" data-name="Intersection 3" d="M0,33.8A105.852,105.852,0,0,1,120.609,9.154L77.493,105.045Z" transform="translate(48.139 158.959) rotate(-78)" fill="#ffdb96"/>
+    </g>
+    <line id="Line_21" data-name="Line 21" x1="39" transform="translate(1444.009 748.5)" fill="none" stroke="#808293" stroke-width="1"/>
+    <text id="_62_" data-name="62%" transform="translate(1485 752)" fill="#808293" font-size="10" font-family="EuphemiaUCAS, Euphemia UCAS"><tspan x="0" y="0">62%</tspan></text>
+    <text id="_13_" data-name="13%" transform="translate(1283.254 636)" fill="#808293" font-size="10" font-family="EuphemiaUCAS, Euphemia UCAS"><tspan x="0" y="0">13%</tspan></text>
+    <line id="Line_22" data-name="Line 22" x1="18" y1="25" transform="translate(1298.815 642.5)" fill="none" stroke="#808293" stroke-width="1"/>
+    <path id="Path_156" data-name="Path 156" d="M35,0H0" transform="translate(1245.043 747.5)" fill="none" stroke="#808293" stroke-width="1"/>
+    <text id="_25_" data-name="25%" transform="translate(1219 752)" fill="#808293" font-size="10" font-family="EuphemiaUCAS, Euphemia UCAS"><tspan x="0" y="0">25%</tspan></text>
+  </g>
+</svg>
